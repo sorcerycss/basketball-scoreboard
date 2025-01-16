@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: #4C1D95;
+    color: #C4B5FD;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 1.5rem;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin: .5em 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-top: 1.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    background: #7C3AED;
+    padding: 1em;
+}
+
+/* Buttons */
+.btn {
+    font-family: inherit;
+    color: #C4B5FD;
+    background: #4C1D95;
+    border: 2px solid #7C3AED;
+    border-radius: 5px;
+    padding: .5em .75em;
+    cursor: pointer;
+}
+
+#new-game-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5em;
+}
